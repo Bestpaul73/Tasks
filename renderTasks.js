@@ -1,7 +1,7 @@
 import { delTodo, postTodo } from "./api.js";
 import { sanitizeHtml } from "./sanitizeHtml.js";
 import { formatDateToRu, formatDateToUs } from '../lib/formatDate/formatDate.js';
-import { format } from 'date-fns';
+// import { format } from 'date-fns';
 
 const country = `us`;
 
